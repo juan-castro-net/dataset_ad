@@ -1,0 +1,40 @@
+{
+    "volume_dataset_name": "volumes_20230124_0641",
+    "random_state": 2022,
+    "n_shuffle": 5,
+    "base_directory": "/media/jacs/WDC/thesis",
+    "metadata_directory": "/media/jacs/WDC/thesis/rawdata",
+    "datasource_directory": "/media/jacs/WDC/thesis/datasources/volumes",
+    "group": [
+        "adni",
+        "aibl",
+        "oasis"
+    ],
+    "distributions": {
+        "train": 0.7,
+        "val": 0.15,
+        "test": 0.15
+    },
+    "group_metadata": {
+        "adni": {
+            "idi_column_name": "image_data_id",
+            "instances_per_class": 70,
+            "metadata_filename": "full_volume_metadata_70.csv"
+        },
+        "aibl": {
+            "idi_column_name": "image_data_id",
+            "instances_per_class": 70,
+            "metadata_filename": "full_volume_metadata_70.csv"
+        },
+        "oasis": {
+            "idi_column_name": "image_data_id",
+            "instances_per_class": 70,
+            "metadata_filename": "full_volume_metadata_70.csv"
+        }
+    },
+    "class_names": [
+        "CN",
+        "MCI",
+        "AD"
+    ]
+}
