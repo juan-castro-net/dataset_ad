@@ -67,7 +67,7 @@ Each CSV dataset file contains these columns:
 | 9 | cdr | The Clinical Dementia Rating (CDR). |
 | 10 | MMSE | The Mini-mental State Exam score. |
 | 11 | filename | The MRI filename as downloaded from the repository. |
-| 12 | class: The label class (CN=Conitive Normal, AD=Alzheimer's Disease) |
+| 12 | class | The label class (CN=Conitive Normal, AD=Alzheimer's Disease) |
 
 
 <!--
