@@ -1,21 +1,6 @@
 # Alzheimer's Disease Dataset
 
-This Alzheimer's disease dataset is used to classify Nornal Cognition (CN) and Alzheimer's disease (AD) cases. 
-
-## Columns
-Each CSV file has these columns: 
-1. index
-2. group
-3. subject
-4. sex
-5. age
-6. visit
-7. image_data_id
-8. acq_date
-9. cdr
-10. mmse
-11. filename
-12- class
+This Alzheimer's disease dataset is used to classify Normal Cognition (CN) and Alzheimer's disease (AD) cases. 
 
 ## Datasets 
 In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI) \cite{ADNI}, Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) \cite{AIBL}, and Open Access Series of Imaging Studies (OASIS) \cite{OASIS}. Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) [Hughes_Berg_Danziger_Coben_Martin_1982](). Table \ref{table:dataset} shows the demographic information for these datasets.
@@ -28,13 +13,13 @@ T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of 
 The datasets have been obtained from:
 
 ## ADNI
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [ADNI](http://adni.loni.usc.edu).
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [ADNI](http://adni.loni.usc.edu){:target="_blank" rel="noopener"}.
 
 ## AIBL
-The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) \cite{AIBL}. 
+The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [AIBL]([)](https://aibl.csiro.au){:target="_blank" rel="noopener"}. 
 
 ## OASIS
-The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease \cite{OASIS}.
+The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease [OASIS](http://www.oasis-brains.org){:target="_blank" rel="noopener"}.
 
 ## Merged Dataset
 To mitigate the challenge of performance reduction of prediction models across diverse demographic groups, our study encompasses a varied range of study populations across different age groups (young and old people) by consolidating ADNI, AIBL, and OASIS datasets, resulting in a merged dataset of 420 instances. Each dataset contributes 70 volumes per class from each volume dataset (70 samples ${\times}$ 2 classes ${\times}$ 3 datasets).
@@ -65,6 +50,23 @@ The subject distribution is balanced, with the same number of subjects per class
 | AIBL | [Train](aibl_train_volumes.csv) | [Validation](aibl_validation_volumes.csv) | [Test](aibl_test_volumes.csv) |
 | OASIS | [Train](oasis_train_volumes.csv) | [Validation](oasis_validation_volumes.csv) | [Test](oasis_test_volumes.csv) |
 | Merged | [Train](train_volumes.csv) | [Validation](validation_volumes.csv) | [Test](test_volumes.csv) |
+
+## File content
+Each CSV dataset file contains these columns: 
+
+1. index: The consecutive number. 
+2. group: The corresponding dataset repository (ADNI, AIBL, or OASIS). 
+3. subject: The subject ID assigned by the dataset repository.
+4. sex: The genre (F=Female, M=Male)
+5. age: The patient age at the scan test.   
+6. visit: The number of the visit.
+7. image_data_id: The image ID assigned by the dataset repository.
+8. acq_date: The MRI scan acquisition date. 
+9. cdr: The Clinical Dementia Rating (CDR).
+10. MMSE: The Mini-mental State Exam score.
+11. filename: The MRI filename as downloaded from the repository.
+12- class: The label class (CN=Conitive Normal, AD=Alzheimer's Disease)
+
 
 <!--
 - ADNI
