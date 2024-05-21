@@ -62,4 +62,30 @@ The datasets are then randomly split to ensure reproducible tests and prevent da
 The subject dataset is split between training (70\%), validation (15\%), and test (15\%) sets. 
 The subject distribution is balanced, with the same number of subjects per class ($k$), where $k$ is less than or equal to the number of samples from the minority class, addressing class imbalance issues.
 
+## Volume Datasets
+- ADNI
+  - [Train](adni_train_volumes.csv)
+  - [Validation](adni_validation_volumes.csv)
+  - [Test](adni_test_volumes.csv)
+- AIBL
+  - [Train](aibl_train_volumes.csv)
+  - Validation
+  - Test
+- OASIS
+  - [Train](oasis_train_volumes.csv)
+  - Validation
+  - Test
+ 
+[a relative link](other_file.md)
+
+
+
+
+
+
+
+
+
+
+
 
