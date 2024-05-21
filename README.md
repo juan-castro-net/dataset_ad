@@ -46,10 +46,10 @@ The subject distribution is balanced, with the same number of subjects per class
 
 | Dataset | Train | Validation | Test |
 | --- | --- | --- | --- |
-| ADNI | [Download](adni_train_volumes.csv) | [Download](adni_validation_volumes.csv) | [Download](adni_test_volumes.csv) |
-| AIBL | [Download](aibl_train_volumes.csv) | [Download](aibl_validation_volumes.csv) | [Download](aibl_test_volumes.csv) |
-| OASIS | [Download](oasis_train_volumes.csv) | [Download](oasis_validation_volumes.csv) | [Download](oasis_test_volumes.csv) |
-| Merged | [Download](train_volumes.csv) | [Download](validation_volumes.csv) | [Download](test_volumes.csv) |
+| ADNI | [Download](adni_train_volumes.csv) | [Download](adni_val_volumes.csv) | [Download](adni_test_volumes.csv) |
+| AIBL | [Download](aibl_train_volumes.csv) | [Download](aibl_val_volumes.csv) | [Download](aibl_test_volumes.csv) |
+| OASIS | [Download](oasis_train_volumes.csv) | [Download](oasis_val_volumes.csv) | [Download](oasis_test_volumes.csv) |
+| Merged | [Download](train_volumes.csv) | [Download](val_volumes.csv) | [Download](test_volumes.csv) |
 
 ## File content
 Each CSV dataset file contains these columns: 
