@@ -13,7 +13,7 @@ T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of 
 The datasets have been obtained from:
 
 ## ADNI
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [http://adni.loni.usc.edu}(http://adni.loni.usc.edu).
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [http://adni.loni.usc.edu](http://adni.loni.usc.edu).
 
 ## AIBL
 The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [https://aibl.csiro.au](https://aibl.csiro.au). 
@@ -65,8 +65,8 @@ Each CSV dataset file contains these columns:
 | 7 | image_data_id | The image ID assigned by the dataset repository. |
 | 8 | acq_date | The MRI scan acquisition date. |
 | 9 | cdr | The Clinical Dementia Rating (CDR). |
-| 10 | MMSE | The Mini-mental State Exam score. |
-| 11 | filename | The MRI filename as downloaded from the repository. |
+| 10 | mmse | The Mini-mental State Exam score. |
+| 11 | filename | The MRI filename assigned by the repository. |
 | 12 | class | The label class (CN=Conitive Normal, AD=Alzheimer's Disease) |
 
 
