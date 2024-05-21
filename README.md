@@ -63,6 +63,15 @@ The subject dataset is split between training (70\%), validation (15\%), and tes
 The subject distribution is balanced, with the same number of subjects per class ($k$), where $k$ is less than or equal to the number of samples from the minority class, addressing class imbalance issues.
 
 ## Volume Datasets
+
+| Dataset | Train | Validation | Test |
+| --- | --- | --- | --- |
+| ADNI | [Train](adni_train_volumes.csv) | [Validation](adni_validation_volumes.csv) | [Test](adni_test_volumes.csv) |
+| AIBL | [Train](aibl_train_volumes.csv) | [Validation](aibl_validation_volumes.csv) | [Test](aibl_test_volumes.csv) |
+| OASIS | [Train](oasis_train_volumes.csv) | [Validation](oasis_validation_volumes.csv) | [Test](oasis_test_volumes.csv) |
+| Merged | [Train](train_volumes.csv) | [Validation](validation_volumes.csv) | [Test](test_volumes.csv) |
+
+<!--
 - ADNI
   - [Train](adni_train_volumes.csv)
   - [Validation](adni_validation_volumes.csv)
@@ -84,6 +93,7 @@ The subject distribution is balanced, with the same number of subjects per class
 - [Test](test_volumes.csv)
  
 [a relative link](other_file.md)
+-->
 
 
 
