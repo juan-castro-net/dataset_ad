@@ -13,13 +13,13 @@ T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of 
 The datasets have been obtained from:
 
 ## ADNI
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) <a href="http://adni.loni.usc.edu" target="_blank">ADNI</a>.
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [http://adni.loni.usc.edu}(http://adni.loni.usc.edu).
 
 ## AIBL
-The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [go][AIBL]([)](https://aibl.csiro.au){:target="_blank" rel="noopener"}. 
+The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [https://aibl.csiro.au](https://aibl.csiro.au). 
 
 ## OASIS
-The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease [go][OASIS](http://www.oasis-brains.org){:target="_blank" rel="noopener"}.
+The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease [http://www.oasis-brains.org)](http://www.oasis-brains.org).
 
 ## Merged Dataset
 To mitigate the challenge of performance reduction of prediction models across diverse demographic groups, our study encompasses a varied range of study populations across different age groups (young and old people) by consolidating ADNI, AIBL, and OASIS datasets, resulting in a merged dataset of 420 instances. Each dataset contributes 70 volumes per class from each volume dataset (70 samples ${\times}$ 2 classes ${\times}$ 3 datasets).
