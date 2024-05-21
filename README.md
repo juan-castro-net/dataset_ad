@@ -25,8 +25,10 @@ Each CSV file have these columns:
 ## Datasets 
 In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI) \cite{ADNI}, Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) \cite{AIBL}, and Open Access Series of Imaging Studies (OASIS) \cite{OASIS}. Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) \cite{Hughes_Berg_Danziger_Coben_Martin_1982}. Table \ref{table:dataset} shows the demographic information for these datasets.
 
+<!--
 ## Datasets
 T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of the most popular datasets for detecting Alzheimer's Disease are used in this study: ADNI \cite{ADNI}, AIBL \cite{AIBL}, and OASIS \cite{OASIS}. In these datasets, subjects are characterized using the Clinical Dementia Rating (CDR) scale, which is a measure that ranges from 0 to 3 and is used to determine the overall severity of dementia. A CDR of zero characterizes CN cases, while a CDR of one or greater represents AD cases. Table \ref{table:dataset} shows the demographic information for these datasets.
+-->
 
 The datasets have been obtained from:
 
