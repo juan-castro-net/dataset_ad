@@ -13,13 +13,13 @@ T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of 
 The datasets have been obtained from:
 
 ## ADNI
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [ADNI](http://adni.loni.usc.edu){:target="_blank" rel="noopener"}.
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [go][ADNI](http://adni.loni.usc.edu){:target="_blank" rel="noopener"}.
 
 ## AIBL
-The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [AIBL]([)](https://aibl.csiro.au){:target="_blank" rel="noopener"}. 
+The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) [go][AIBL]([)](https://aibl.csiro.au){:target="_blank" rel="noopener"}. 
 
 ## OASIS
-The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease [OASIS](http://www.oasis-brains.org){:target="_blank" rel="noopener"}.
+The Open Access Series of Imaging Studies (OASIS) is a project aimed at making neuroimaging datasets of the brain freely available to the scientific community. OASIS-3 is a longitudinal neuroimaging, clinical, cognitive, and biomarker dataset for normal aging and Alzheimer’s Disease [go][OASIS](http://www.oasis-brains.org){:target="_blank" rel="noopener"}.
 
 ## Merged Dataset
 To mitigate the challenge of performance reduction of prediction models across diverse demographic groups, our study encompasses a varied range of study populations across different age groups (young and old people) by consolidating ADNI, AIBL, and OASIS datasets, resulting in a merged dataset of 420 instances. Each dataset contributes 70 volumes per class from each volume dataset (70 samples ${\times}$ 2 classes ${\times}$ 3 datasets).
@@ -54,18 +54,20 @@ The subject distribution is balanced, with the same number of subjects per class
 ## File content
 Each CSV dataset file contains these columns: 
 
-1. index: The consecutive number. 
-2. group: The corresponding dataset repository (ADNI, AIBL, or OASIS). 
-3. subject: The subject ID assigned by the dataset repository.
-4. sex: The genre (F=Female, M=Male)
-5. age: The patient age at the scan test.   
-6. visit: The number of the visit.
-7. image_data_id: The image ID assigned by the dataset repository.
-8. acq_date: The MRI scan acquisition date. 
-9. cdr: The Clinical Dementia Rating (CDR).
-10. MMSE: The Mini-mental State Exam score.
-11. filename: The MRI filename as downloaded from the repository.
-12- class: The label class (CN=Conitive Normal, AD=Alzheimer's Disease)
+| # | Name | Description |
+| --- | --- | --- |
+| 1 | index | The consecutive number. |
+| 2 | group | The corresponding dataset repository (ADNI, AIBL, or OASIS). |
+| 3 | subject | The subject ID assigned by the dataset repository. |
+| 4 | sex | The genre (F=Female, M=Male). |
+| 5 | age | The patient age at the scan test. |
+| 8 | visit | The number of the visit. |
+| 7 | image_data_id: The image ID assigned by the dataset repository. |
+| 8 | acq_date | The MRI scan acquisition date. |
+| 9 | cdr | The Clinical Dementia Rating (CDR). |
+| 10 | MMSE | The Mini-mental State Exam score. |
+| 11 | filename | The MRI filename as downloaded from the repository. |
+| 12 | class: The label class (CN=Conitive Normal, AD=Alzheimer's Disease) |
 
 
 <!--
