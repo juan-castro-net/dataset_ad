@@ -37,7 +37,6 @@ To mitigate the challenge of performance reduction of prediction models across d
 | | AD | 70 | ${74.87 \pm 7.57}$ | 43/27 | |
 | OASIS \cite{OASIS} | CN | 70 | ${69.89 \pm 9.38}$ | 39/31 | 140 |
 | | AD | 70 | ${76.36 \pm 9.15}$ | 34/36 | |
-| --- | --- | --- | --- | --- | --- |
 | Merged | CN | 210 | ${74.36 \pm 8.01}$ | 110/100 | 420 |
 | | AD | 210 | ${76.62 \pm 7.93}$ | 108/102 | |
 
