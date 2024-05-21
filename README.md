@@ -1,14 +1,9 @@
 # Alzheimer's Disease Dataset
 
-This Alzheimer's disease dataset is used to classify Bornal Cognitio (CN) and Alzheimer's disease (AD) cases. 
-
-## Groups
-- OASIS
-- ADNI
-- AIBL
+This Alzheimer's disease dataset is used to classify Nornal Cognition (CN) and Alzheimer's disease (AD) cases. 
 
 ## Columns
-Each CSV file have these columns: 
+Each CSV file has these columns: 
 1. index
 2. group
 3. subject
@@ -23,7 +18,7 @@ Each CSV file have these columns:
 12- class
 
 ## Datasets 
-In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI) \cite{ADNI}, Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) \cite{AIBL}, and Open Access Series of Imaging Studies (OASIS) \cite{OASIS}. Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) \cite{Hughes_Berg_Danziger_Coben_Martin_1982}. Table \ref{table:dataset} shows the demographic information for these datasets.
+In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI) \cite{ADNI}, Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) \cite{AIBL}, and Open Access Series of Imaging Studies (OASIS) \cite{OASIS}. Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) [Hughes_Berg_Danziger_Coben_Martin_1982](). Table \ref{table:dataset} shows the demographic information for these datasets.
 
 <!--
 ## Datasets
@@ -33,7 +28,7 @@ T1-weighted structural magnetic resonance imaging (3D-MRI) images from three of 
 The datasets have been obtained from:
 
 ## ADNI
-The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) \cite{ADNI}.
+The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD) [ADNI](http://adni.loni.usc.edu).
 
 ## AIBL
 The Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) is a study to discover which biomarkers, cognitive characteristics, and health and lifestyle factors determine the subsequent development of symptomatic Alzheimer’s Disease (AD) \cite{AIBL}. 
@@ -47,11 +42,11 @@ To mitigate the challenge of performance reduction of prediction models across d
 | Dataset | Class | Subjects | Age | Gender | Total |
 | --- | --- | --- | --- | --- | --- |
 | | | | | F/M | Subjects |
-| ADNI \cite{ADNI} | CN | 70 | ${78.63 \pm 5.82}$ | 34/36 | 140 |
+| ADNI | CN | 70 | ${78.63 \pm 5.82}$ | 34/36 | 140 |
 | | AD | 70 | ${78.63 \pm 6.50}$ | 31/39 | |
-| AIBL \cite{AIBL} | CN | 70 | ${74.56 \pm 5.81}$ | 37/33 | 140 |
+| AIBL | CN | 70 | ${74.56 \pm 5.81}$ | 37/33 | 140 |
 | | AD | 70 | ${74.87 \pm 7.57}$ | 43/27 | |
-| OASIS \cite{OASIS} | CN | 70 | ${69.89 \pm 9.38}$ | 39/31 | 140 |
+| OASIS | CN | 70 | ${69.89 \pm 9.38}$ | 39/31 | 140 |
 | | AD | 70 | ${76.36 \pm 9.15}$ | 34/36 | |
 | Merged | CN | 210 | ${74.36 \pm 8.01}$ | 110/100 | 420 |
 | | AD | 210 | ${76.62 \pm 7.93}$ | 108/102 | |
