@@ -46,7 +46,7 @@ The subject distribution is balanced, with the same number of subjects per class
 
 | Dataset | Train | Validation | Test |
 | --- | --- | --- | --- |
-| ADNI | [Download}(adni_train_volumes.csv) | [Download](adni_validation_volumes.csv) | [Download}(adni_test_volumes.csv) |
+| ADNI | [Download](adni_train_volumes.csv) | [Download](adni_validation_volumes.csv) | [Download](adni_test_volumes.csv) |
 | ADNI | [Train](adni_train_volumes.csv) | [Validation](adni_validation_volumes.csv) | [Test](adni_test_volumes.csv) |
 | AIBL | [Train](aibl_train_volumes.csv) | [Validation](aibl_validation_volumes.csv) | [Test](aibl_test_volumes.csv) |
 | OASIS | [Train](oasis_train_volumes.csv) | [Validation](oasis_validation_volumes.csv) | [Test](oasis_test_volumes.csv) |
