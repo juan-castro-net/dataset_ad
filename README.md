@@ -29,6 +29,7 @@ In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI
 To mitigate the challenge of performance reduction of prediction models across diverse demographic groups, our study encompasses a varied range of study populations across different age groups (young and old people) by consolidating ADNI, AIBL, and OASIS datasets, resulting in a merged dataset of 420 instances. Each dataset contributes 70 volumes per class from each volume dataset (70 samples ${\times}$ 2 classes ${\times}$ 3 datasets).
 
 | Dataset | Class | Subjects | Age | Gender | Total |
+| --- | --- | --- | --- | --- | --- |
 | | | | | F/M | Subjects |
 | --- | --- | --- | --- | --- | --- |
 | ADNI \cite{ADNI} | CN | 70 | ${78.63 \pm 5.82}$ | 34/36 | 140 |
@@ -38,6 +39,7 @@ To mitigate the challenge of performance reduction of prediction models across d
 | OASIS \cite{OASIS} | CN | 70 | ${69.89 \pm 9.38}$ | 39/31 | 140 |
 | | AD | 70 | ${76.36 \pm 9.15}$ | 34/36 | |
 | Merged | CN | 210 | ${74.36 \pm 8.01}$ | 110/100 | 420 |
+| --- | --- | --- | --- | --- | --- |
 | | AD | 210 | ${76.62 \pm 7.93}$ | 108/102 | |
 
 
