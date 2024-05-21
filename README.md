@@ -69,12 +69,19 @@ The subject distribution is balanced, with the same number of subjects per class
   - [Test](adni_test_volumes.csv)
 - AIBL
   - [Train](aibl_train_volumes.csv)
-  - Validation
-  - Test
+  - [Validation](aibl_validation_volumes.csv)
+  - [Test](aibl_test_volumes.csv)
 - OASIS
   - [Train](oasis_train_volumes.csv)
-  - Validation
-  - Test
+  - [Validation](oasis_validation_volumes.csv)
+  - [Test](oasis_test_volumes.csv)
+
+
+## Distribution datasets
+
+- [Train](train_volumes.csv)
+- [Validation](validation_volumes.csv)
+- [Test](test_volumes.csv)
  
 [a relative link](other_file.md)
 
