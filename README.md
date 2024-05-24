@@ -1,9 +1,10 @@
 # Alzheimer's Disease Dataset
 
-This Alzheimer's disease dataset is used to classify Normal Cognition (CN) and Alzheimer's disease (AD) cases. 
+This Alzheimer's disease dataset was used to train Convolutional Neural Networks (CNNs) classification models to distinguish between Normal Cognition (CN) and Alzheimer's disease (AD) cases. 
 
 ## Datasets 
-In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI) \cite{ADNI}, Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL) \cite{AIBL}, and Open Access Series of Imaging Studies (OASIS) \cite{OASIS}. Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) [Hughes_Berg_Danziger_Coben_Martin_1982](). Table \ref{table:dataset} shows the demographic information for these datasets.
+In this study, we used T1-weighted structural magnetic resonance imaging (3D-MRI) from three prominent datasets for Alzheimer's disease research: Alzheimer's Disease Neuroimaging Initiative (ADNI), Australian Imaging, Biomarker \& Lifestyle Flagship Study of Ageing (AIBL), and Open Access Series of Imaging Studies (OASIS). Subjects in these datasets have been characterized using the Clinical Dementia Rating (CDR) scale, where 0 indicates cognitively normal (CN), and values from 1 to 3 indicate different stages of Alzheimer's disease (AD) [Hughes_Berg_Danziger_Coben_Martin_1982]().
+#Table \ref{table:dataset} shows the demographic information for these datasets.
 
 <!--
 ## Datasets
@@ -60,14 +61,14 @@ Each CSV dataset file contains these columns:
 | 2 | group | The corresponding dataset repository (ADNI, AIBL, or OASIS). |
 | 3 | subject | The subject ID assigned by the dataset repository. |
 | 4 | sex | The genre (F=Female, M=Male). |
-| 5 | age | The patient's age at the scan test. |
+| 5 | age | The patient's age at the scan acquisition date (visit). |
 | 8 | visit | The number of the visit. |
 | 7 | image_data_id | The image ID assigned by the dataset repository. |
 | 8 | acq_date | The MRI scan acquisition date. |
 | 9 | cdr | The Clinical Dementia Rating (CDR). |
 | 10 | mmse | The Mini-mental State Exam score. |
 | 11 | filename | The MRI filename assigned by the repository. |
-| 12 | class | The label class (CN=Conitive Normal, AD=Alzheimer's Disease) |
+| 12 | class | The label class (CN=Cognitive Normal, AD=Alzheimer's Disease) |
 
 
 <!--
